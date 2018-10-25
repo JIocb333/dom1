@@ -1,0 +1,7 @@
+table { width: 400px; border-collapse: collapse;}
+th, td { padding: 8px; border: 1px solid silver;}
+th { text-align: left;}
+th,	.total { font-size: 120%; line-height: 1.3em; font-weight: bold;}
+th:nth-child(3),
+td:nth-child(3),
+.total td:nth-child(2) { text-align: right;}
